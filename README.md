@@ -1,4 +1,4 @@
-# シンプルToDoアプリ
+﻿# シンプルToDoアプリ
 
 Next.js（App Router）で作ったシンプルなToDoアプリです。
 
@@ -19,7 +19,7 @@ http://localhost:3000 を開きます。
 
 ## Vercelへのデプロイ
 
-### 1. GitHub（kameyamam4u-cyber/todoapp）にpushする
+### 1. GitHub（kameyamam4u-cyber/Todoapp）にpushする
 
 初回のみ:
 
@@ -28,7 +28,7 @@ git init
 git add .
 git commit -m "ToDoアプリを作成"
 git branch -M main
-git remote add origin https://github.com/kameyamam4u-cyber/todoapp.git
+git remote add origin https://github.com/kameyamam4u-cyber/Todoapp.git
 git push -u origin main
 ```
 
@@ -43,7 +43,7 @@ git push
 ### 2. Vercelでデプロイする
 
 1. https://vercel.com にGitHubアカウントでログイン
-2. 「Add New → Project」で `todoapp` リポジトリを「Import」
+2. 「Add New → Project」で `Todoapp` リポジトリを「Import」
 3. 設定は変更せず「Deploy」を押す（Next.jsは自動で認識されます）
 
 以降は `git push` するたびに自動で再デプロイされます。
